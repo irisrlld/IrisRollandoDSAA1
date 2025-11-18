@@ -5,8 +5,8 @@
 
   /* couleurs */
   --couleurTitre :beige;
-  --couleurDuTexte : beige;
-  --couleurFond : rgb(5, 5, 8);
+  --couleurDuTexte : rgb(244, 238, 189);
+  --couleurFond : rgb(34, 17, 17);
 
   /* dimension des blocs */
   --largeurPremierBloc : 500px;
@@ -33,14 +33,15 @@ html{
 /*typo*/
 @font-face {
   font-family: "feron";
-  src: url("../Feroniapi-MediumItalic.woff") format("woff");
+  src: url("../LeMurmure-Regular.woff") format("woff");
 }
 
-/* possibilité de mettre plusieurs typos 
+/* possibilité de mettre plusieurs typos */
+
 @font-face { 
-  font-family: "feron";
-  src: url("../Feroniapi-MediumItalic.woff") format("woff");
-}*/
+  font-family: "feron2";
+  src: url("../Combat.otf") format("otf");
+}
 
 *{
 	box-sizing: border-box;
@@ -48,7 +49,7 @@ html{
 
 header{
 	width: var(--largeurPremierBloc);
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(34, 17, 17);
 }
 
 aside{
@@ -56,6 +57,7 @@ aside{
 }
 
 h1{
+	font-family: "feron";
 	color: var(--couleurTitre);
 	font-size: var(--fontSizeH1);
 	font-style: italic;
@@ -63,6 +65,7 @@ h1{
 }
 
 h2{
+	font-family: "feron";
 	color: var(--couleurTitre);
 	font-size: var(--fontSizeH2);
 	font-style: italic;
@@ -70,6 +73,7 @@ h2{
 }
 
 body{
+	font-family: "feron2";
 	display: flex;
 	height: 100%;
 	padding: var(--margeDeLaPage);
@@ -119,7 +123,7 @@ figcaption{
 
 
 .premier{
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(34, 17, 17);
 }
 
 #test{
